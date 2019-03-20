@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: green;
+}
+p {
+    margin: 0;
+}
+.main-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 24%;
+    border: 7px solid #D6D8D9;
+    border-radius: 42px;
+}
+.body-structure {
+    height: 800px;
+    border: 1px solid white;
+    border-radius: 35px;
+    position: relative;
+    background: white;
+}
+.center {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: black;
+    position: absolute;
+    left: 50%;
+    top: 20px;
+}
+.attraction .speaker {
+    width: 70px;
+    height: 5px;
+    position: absolute;
+    left: 43%;
+    top: 50px;
+    border-radius: 20px;
+    background: black;
+}
+.attraction .camera {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    left: 30%;
+    top: 45px;
+    background: black;
+}
+.content {
+    width: 85%;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+}
+.first-buttons {
+    width: 5px;
+    height: 35px;
+    position: absolute;
+    top: 90px;
+    left: -11px;
+    background: #D6D8D9;
+    border-radius: 20px;
+}
+.second-buttons {
+    width: 6px;
+    height: 55px;
+    position: absolute;
+    top: 150px;
+    left: -11px;
+    background: #D6D8D9;
+    border-radius: 20px;
+}
+.third-buttons {
+    width: 6px;
+    height: 55px;
+    position: absolute;
+    top: 220px;
+    left: -11px;
+    background: #D6D8D9;
+    border-radius: 20px;
+}
+.power-button {
+    width: 6px;
+    height: 55px;
+    position: absolute;
+    top: 150px;
+    right: -11px;
+    background: #D6D8D9;
+    border-radius: 20px;
+}
+.footer-buttons {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 20px;
+    left: 43%;
+    border: 3px solid #696B6C;;
+    background: white;
+}
+
+.content .content-upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .content-upper p {
+    width: 100%;
+    background: white;
+    height: 28px; 
+    font-size: 12px;
+    margin: 0;
+}
+.content .content-date span {
+    width: 30px;
+    height: 15px;
+    background: #D6D8D9;
+}
+.content .topic p {
+    width: 100%;
+    height: 60px;
+    color: white;
+    font-size: 30px;
+}
+.content .content-paras {
+    line-height: 1;
+    background: white;
+}
+.content .content-paras p {
+    background: white;
+}
+.content .content-paras .node-heading {
+    font-size: 20px;
+}
+.content .content-paras .small-heading {
+    font-size: 12px;
+    background: white;
+}
